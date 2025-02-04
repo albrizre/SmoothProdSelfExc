@@ -1,0 +1,1 @@
+R codes and files for fitting the self-exciting model proposed in the paper *A self-exciting spatio-temporal model with a smooth space-time varying productivity parameter*, by Álvaro Briz-Redón and Jorge Mateu.
