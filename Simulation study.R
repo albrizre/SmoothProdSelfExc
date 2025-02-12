@@ -183,7 +183,7 @@ constants$matrix_spatial_distances_events=gDistance(events_sp,events_sp,byid = T
 constants$matrix_spatial_distances_events[upper.tri(constants$matrix_spatial_distances_events)]=Inf
 diag(constants$matrix_spatial_distances_events)=Inf
 
-# Spline basis for b_S (temporal correction factor)
+# Spline basis for b_S (spatial correction factor)
 centroids_grid=gCentroid(grid_square,byid = T)
 x=centroids_grid@coords[,1]
 y=centroids_grid@coords[,2]
