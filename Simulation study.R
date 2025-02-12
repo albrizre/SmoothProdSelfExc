@@ -11,7 +11,6 @@ library(npreg)
 
 # Set the working directory
 # setwd("...")
-setwd("G:/Mi unidad/Investigacion/MixtureMechanisticEmpiricalSpatial/GitHub")
 
 # Load codes for the standard and the proposed self-exciting model. There are two versions for each one
 source("Model codes/standard_self.R")
@@ -41,7 +40,7 @@ lambda0_sim=2e-07
 Tmax=365
 
 # Choose model type ("standard" or "smoothprod", "standard" needs to be fit first for each specific pattern)
-model="smoothprod"
+model="standard"
 
 #######################################################################################
 # Simulation of the spatio-temporal point pattern starts (see Algorithm 1 in the paper)
