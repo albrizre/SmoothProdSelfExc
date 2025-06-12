@@ -12,4 +12,4 @@ Furthermore, file *Figures simulation study.R* allows reproducing the figures in
 
 a) Graphical representation of the offspring parameter functions, $\kappa(x,t)$, in space and time.
 
-b) Graphical representation of the average estimate of b(x) and b(t) for the 100 replicates created under each of the three scenarios considered. For this, the models need to be fitted first and storaged in *Models/Sim_study/*. These are not provided in the Github repository due to their size.
+b) Graphical representation of the average estimate of $b(\boldsymbol{x})$ and $b(t)$ for the 100 replicates created under each of the three scenarios considered. For this, the models need to be fitted first and storaged in *Models/Sim_study/*. These are not provided in the Github repository due to their size.
