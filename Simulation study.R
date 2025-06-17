@@ -31,7 +31,7 @@ study_area=as(study_area,"SpatialPolygons")
 kappa_choice="A"
 if (kappa_choice=="A"){kappa_function <- function(x,y,t) (1/3000)*(x+y)*exp(-t/100)}
 if (kappa_choice=="B"){kappa_function <- function(x,y,t) 0.75*as.numeric(y>=1000)*as.numeric(t>=150)}
-if (kappa_choice=="C"){kappa_function <- function(x,y,t) 1*exp(-(sqrt((x-750)^2+(y-750)^2))/500)*exp(-abs(t-150)/100)}
+if (kappa_choice=="C"){kappa_function <- function(x,y,t) 0.75*(exp(-(sqrt((x-375)^2+(y-1125)^2))/500)+exp(-(sqrt((x-1125)^2+(y-375)^2))/500))*as.numeric((t>=50 & t<=100) | t>=150);t_max=200;x_max=1125;y_max=375}
 
 # Choose values for lambda0, sigma0 and rho0 (see Algorithm 1 in the paper)
 sigma0=50
