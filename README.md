@@ -1,4 +1,4 @@
-R codes and files for fitting the self-exciting model proposed in the paper *A self-exciting spatio-temporal model with a smooth space-time varying productivity parameter*, by Álvaro Briz-Redón and Jorge Mateu, published in AStA Advances in Statistical Analysis: [https://onlinelibrary.wiley.com/doi/full/10.1111/stan.12334](https://link.springer.com/article/10.1007/s10182-025-00537-2).
+R codes and files for fitting the self-exciting model proposed in the paper *A self-exciting spatio-temporal model with a smooth space-time varying productivity parameter*, by Álvaro Briz-Redón and Jorge Mateu, published in AStA Advances in Statistical Analysis: https://link.springer.com/article/10.1007/s10182-025-00537-2.
 
 There is a main file, *Simulation study.R*, that allows:
 
